@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.ja",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "app": "nodemon app.js"
   },
   "author": "",
@@ -12,6 +12,7 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "mocha": "^8.1.1",
     "mongoose": "^5.9.16",
     "nodemon": "^2.0.4"
   }
